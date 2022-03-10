@@ -1,0 +1,65 @@
+.header {
+  height: 60px;
+  display: flex;
+  align-items: center;
+  background-color: #131921;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+.header_logo {
+  width: 100px;
+  object-fit: contain;
+  /* object-fit :contains means it is going to keep its aspect ration */
+  margin: 0 20px;
+  margin-top: 18px;
+}
+.header_search {
+  display: flex;
+  flex: 1;
+  /* flex:1 means it can strech how it can */
+  align-items: center;
+  border-radius: 24px;
+}
+.header_searchInput {
+  height: 12px;
+  width: 100%;
+  padding: 10px;
+  border: none;
+}
+.header_searchIcon {
+  padding: 5px;
+  background-color: #cd9042;
+  height: 22px !important;
+}
+.header_nav {
+  display: flex;
+  justify-content: space-evenly;
+}
+.header_option_LineOne {
+  font-size: 10px;
+}
+.header_option_LineTwo {
+  font-size: 13px;
+  font-weight: 800;
+}
+.header_optionBasket {
+  display: flex;
+  align-items: center;
+  color: white;
+  text-decoration: none;
+}
+.header_basketCount {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.header_option {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+  margin-right: 10px;
+  color: white;
+}
+.link {
+  text-decoration: none;
+}
